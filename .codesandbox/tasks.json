@@ -12,17 +12,22 @@
     "start": {
       "name": "start",
       "command": "npm run start",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 39869
+      }
     },
     "login": {
       "name": "login",
-      "command": "npm run login",
-      "runAtStart": false
+      "command": "npm run login"
     },
     "test": {
       "name": "test",
-      "command": "npm run test",
-      "runAtStart": false
+      "command": "npm run test"
+    },
+    "npm install": {
+      "name": "Website",
+      "command": "npm install"
     }
   }
 }
